@@ -1,0 +1,9 @@
+
+<h1>All of Our Wonderful, Low-Priced Mini Animals For Sale!</h1>
+@{foreach (var product in @ViewBag.allProducts){
+    <div class="productShort">
+        <img src='/images/@product.Images[@ViewBag.randNum].ImageURL'>
+        <p><a href="products/@product.ProductID">@product.Name</a>, $@product.Price</P>
+        <p>Hurry! Only @product.InStock left!</p>
+    </div>
+}}

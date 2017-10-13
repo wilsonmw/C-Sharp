@@ -1,0 +1,8 @@
+/Users/Monica/Desktop/DojoAssignments/C#/callingCard/bin/Debug/netcoreapp1.1/callingCard.deps.json
+/Users/Monica/Desktop/DojoAssignments/C#/callingCard/bin/Debug/netcoreapp1.1/callingCard.runtimeconfig.json
+/Users/Monica/Desktop/DojoAssignments/C#/callingCard/bin/Debug/netcoreapp1.1/callingCard.runtimeconfig.dev.json
+/Users/Monica/Desktop/DojoAssignments/C#/callingCard/bin/Debug/netcoreapp1.1/callingCard.dll
+/Users/Monica/Desktop/DojoAssignments/C#/callingCard/bin/Debug/netcoreapp1.1/callingCard.pdb
+/Users/Monica/Desktop/DojoAssignments/C#/callingCard/obj/Debug/netcoreapp1.1/callingCard.AssemblyInfo.cs
+/Users/Monica/Desktop/DojoAssignments/C#/callingCard/obj/Debug/netcoreapp1.1/callingCard.dll
+/Users/Monica/Desktop/DojoAssignments/C#/callingCard/obj/Debug/netcoreapp1.1/callingCard.pdb

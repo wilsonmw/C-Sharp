@@ -1,0 +1,40 @@
+@model loginreg.Models.User
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Login and Registration</h1>
+<h2>Register:</h2>
+    <form asp-controller="User" asp-action="/register" method="POST">
+    <span asp-validation-for="FirstName"></span><br>
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName"><br>
+    <br>
+    <span asp-validation-for="LastName"></span><br>
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName"><br>
+    <br>
+    <span asp-validation-for="Email"></span><br>
+    <label asp-for="Email"></label>
+    <input asp-for="Email"><br>
+    <br>
+    <span asp-validation-for="Password"></span><br>
+    <label asp-for="Password"></label>
+    <input asp-for="Password"><br>
+    <br>
+    <span asp-validation-for="PWConfirm"></span><br>
+    <label asp-for="PWConfirm"></label>
+    <input asp-for="PWConfirm"><br>
+    <br>
+    <input type='submit' value="Create New User">
+</form> 
+   
+<h2>Login:</h2>
+    <form action="/login" method="POST">
+        Email: <input type='email' name='Email'><br>
+        <br>
+        Password: <input type='text' name='Password'><br>
+        <br>
+        <input type='submit' value='Login!'>
+    </form>
+

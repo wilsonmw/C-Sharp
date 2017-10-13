@@ -1,0 +1,86 @@
+/*Write all of your CSS here*/
+
+#header{
+    background-color: darkgray;
+    height: 35px;   
+}
+
+.headerLink{
+    margin-left: 5%;
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+span{
+    color: red;
+}
+
+.productShort img {
+    width: 80%;
+}
+
+.productShort{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+body{
+    background: -webkit-gradient(linear, right top, left top, from(#108D4F), to(#C2E1A6));
+    background-image: -webkit-linear-gradient(right, #108D4F #C2E1A6);
+    background-image: -moz-linear-gradient(left, #108D4F #C2E1A6);
+    background-image: linear-gradient(to left, #108D4F #C2E1A6);
+}
+
+.mainPart{
+    margin-left: 10%;
+}
+
+.regPage{
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin-left: 3%;
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+h3{
+    font-size: 1.5em;
+}
+form{
+    display: inline-block;
+}
+
+.button{
+    height: 25px;
+    box-shadow: black 3px 3px 0px 0px;
+}
+.singleProdImage{
+    width: 20%;
+    margin-left: 2%;
+}
+#prodDescrip{
+    width: 60%;
+}
+#reviewForm{
+    margin-left: 50%;
+}
+
+#buy{
+    font-size: 1.9em;
+    margin-left: 30%;
+}
+
+.buyButton {
+    height: 35px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 0px 0px;
+    font-size: 1em;
+}
+.buyProdPic{
+    width: 45%;
+}

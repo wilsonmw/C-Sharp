@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Add a Quote to the Quotes Page</h1>
+@{foreach(var error in ViewBag.errors){
+    if(@error.Errors.Count>0){
+        <p>@error.Errors[0].ErrorMessage</p>
+    }
+}}
+<form action="/quotes" method="POST">
+    <input type='text' name="Name"/>
+    <textarea name="Content" rows = 10 cols = 40></textarea>
+    <input type = "submit" value = "Add Your Quote!">
+</form>
+<form action="/quotes" method="GET">
+    <input type = "submit" value = "Skip to Quotes!">
+</form>

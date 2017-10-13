@@ -1,0 +1,8 @@
+<h1>Quotes!</h1>
+@{foreach(var thing in ViewBag.allQuotes){
+    <div style="border: 1px solid black; display: inline-block">
+        <p>@thing["Name"] said:</p>
+    <p>@thing["Content"]</p>
+    <p>at @thing["CreatedAt"]</p>
+    </div><br><br>
+}}

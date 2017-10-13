@@ -1,0 +1,23 @@
+<h1>Welcome @ViewBag.currentUser.FirstName, your account information is below.</h1>
+<h4><a href="/logout">Logout</a></h4>
+<div>
+    <h3>Total Balance: $@ViewBag.currentUser.TotalAmount</h3>
+    <h3>Account History</h3>
+    @{if (@ViewBag.exists == true){
+        foreach(var transaction in @ViewBag.allTransactions){
+            <p>Amount: $@transaction.Amount Made on: @transaction.CreatedAt</p>
+        }
+    }}
+        
+    
+</div>
+<div>
+    <h3>Deposit/Withdrawl (Use - sign for withdrawl):</h3>
+    @{if (@ViewBag.UnderZero == 1){
+        <p style = "color: red">@ViewBag.UnderZeroMessage</p>
+    }}
+    <form action="/newTransaction" method="POST">
+        <input type="decimal" name="Amount">
+        <input type='submit' value='Submit Transaction'>
+    </form>
+</div>

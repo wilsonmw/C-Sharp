@@ -1,0 +1,8 @@
+/Users/Monica/Desktop/DojoAssignments/C#/SimpleCRUD/bin/Debug/netcoreapp1.1/SimpleCRUD.deps.json
+/Users/Monica/Desktop/DojoAssignments/C#/SimpleCRUD/bin/Debug/netcoreapp1.1/SimpleCRUD.runtimeconfig.json
+/Users/Monica/Desktop/DojoAssignments/C#/SimpleCRUD/bin/Debug/netcoreapp1.1/SimpleCRUD.runtimeconfig.dev.json
+/Users/Monica/Desktop/DojoAssignments/C#/SimpleCRUD/bin/Debug/netcoreapp1.1/SimpleCRUD.dll
+/Users/Monica/Desktop/DojoAssignments/C#/SimpleCRUD/bin/Debug/netcoreapp1.1/SimpleCRUD.pdb
+/Users/Monica/Desktop/DojoAssignments/C#/SimpleCRUD/obj/Debug/netcoreapp1.1/SimpleCRUD.AssemblyInfo.cs
+/Users/Monica/Desktop/DojoAssignments/C#/SimpleCRUD/obj/Debug/netcoreapp1.1/SimpleCRUD.dll
+/Users/Monica/Desktop/DojoAssignments/C#/SimpleCRUD/obj/Debug/netcoreapp1.1/SimpleCRUD.pdb

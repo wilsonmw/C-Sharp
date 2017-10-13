@@ -1,0 +1,8 @@
+/Users/Monica/Desktop/DojoAssignments/C#/fundamentals_1/bin/Debug/netcoreapp1.1/fundamentals_1.deps.json
+/Users/Monica/Desktop/DojoAssignments/C#/fundamentals_1/bin/Debug/netcoreapp1.1/fundamentals_1.runtimeconfig.json
+/Users/Monica/Desktop/DojoAssignments/C#/fundamentals_1/bin/Debug/netcoreapp1.1/fundamentals_1.runtimeconfig.dev.json
+/Users/Monica/Desktop/DojoAssignments/C#/fundamentals_1/bin/Debug/netcoreapp1.1/fundamentals_1.dll
+/Users/Monica/Desktop/DojoAssignments/C#/fundamentals_1/bin/Debug/netcoreapp1.1/fundamentals_1.pdb
+/Users/Monica/Desktop/DojoAssignments/C#/fundamentals_1/obj/Debug/netcoreapp1.1/fundamentals_1.AssemblyInfo.cs
+/Users/Monica/Desktop/DojoAssignments/C#/fundamentals_1/obj/Debug/netcoreapp1.1/fundamentals_1.dll
+/Users/Monica/Desktop/DojoAssignments/C#/fundamentals_1/obj/Debug/netcoreapp1.1/fundamentals_1.pdb

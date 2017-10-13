@@ -1,0 +1,40 @@
+h1,h2{
+    text-align: center;
+    color: red;
+}
+
+form{
+    display: inline-block;
+}
+#centerConsole{
+    text-align: center;
+    color: purple;
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+
+.click{
+    color: blue;
+    height: 30px;
+    font-size: 1em;
+    margin-left: 20%;
+}
+#actionButtons{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.restart{
+    text-align: center;
+    color: blue;
+    height: 30px;
+    font-size: 1em;
+}
+.restartButton{
+    text-align: center;
+}
+#kick{
+    text-align: center;
+    margin-right: 2%;
+    margin-top: 500px;
+}

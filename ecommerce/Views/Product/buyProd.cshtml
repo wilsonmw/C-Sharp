@@ -1,0 +1,10 @@
+
+<img src = "/Images/@ViewBag.currentProduct.Images[0].ImageURL" class="buyProdPic">
+<h2>Are you sure you want to add @ViewBag.currentProduct.Name ($@ViewBag.currentProduct.Price) to your shopping cart?</h2>
+<form action='/buy' method="POST">
+    <input type="hidden" name="prodID" value="@ViewBag.currentProduct.ProductID">
+    <input class="buyButton" type="submit" value="Yes, Add to Cart!">
+</form>
+<form action='/products' method="GET">
+    <input class="buyButton" type="submit" value="No, Go Back :(">
+</form>

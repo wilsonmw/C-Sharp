@@ -1,0 +1,34 @@
+@Html.Partial("header")
+
+<h3>Post a message:</h3>
+<form action='/postMessage' method="POST">
+    @ViewBag.messageError
+    <br>
+    <textarea name="Content" rows=5 cols=80></textarea>
+    <input type='submit' value='Post Message'>
+</form>
+<br>
+
+@{foreach (var message in @ViewBag.allMessages){
+    <div id="messageBox">
+    @message["FirstName"] @message["LastName"] @message["CreatedAt"]<br>
+    @message["Content"]<br>
+    @if(@message["users_idusers"] == ViewBag.userId){
+        <form action="delete" method="POST">
+            <input type="hidden" name ="id" value='@message["idmessages"]'>
+            <input type="submit" value="Delete Message"><br>
+        </form>   
+    }
+    <form action="/postComment" method="POST">
+        <input type="text" name="commentContent">
+        <input type="hidden" name="id" value="@message["idmessages"]">
+        <input type="submit" value="Post a Comment">
+    </form><br>
+    @foreach (var comment in @ViewBag.allComments){
+        @if(comment["messages_idmessages"] == message["idmessages"]){
+            <p>@comment["FirstName"] @comment["LastName"] @comment["CreatedAt"]<br>
+            @comment["commentContent"]</p>
+    }}
+    </div>    
+}   
+}

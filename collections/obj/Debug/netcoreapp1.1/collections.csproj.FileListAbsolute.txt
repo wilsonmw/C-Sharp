@@ -1,0 +1,8 @@
+/Users/Monica/Desktop/DojoAssignments/C#/collections/bin/Debug/netcoreapp1.1/collections.deps.json
+/Users/Monica/Desktop/DojoAssignments/C#/collections/bin/Debug/netcoreapp1.1/collections.runtimeconfig.json
+/Users/Monica/Desktop/DojoAssignments/C#/collections/bin/Debug/netcoreapp1.1/collections.runtimeconfig.dev.json
+/Users/Monica/Desktop/DojoAssignments/C#/collections/bin/Debug/netcoreapp1.1/collections.dll
+/Users/Monica/Desktop/DojoAssignments/C#/collections/bin/Debug/netcoreapp1.1/collections.pdb
+/Users/Monica/Desktop/DojoAssignments/C#/collections/obj/Debug/netcoreapp1.1/collections.AssemblyInfo.cs
+/Users/Monica/Desktop/DojoAssignments/C#/collections/obj/Debug/netcoreapp1.1/collections.dll
+/Users/Monica/Desktop/DojoAssignments/C#/collections/obj/Debug/netcoreapp1.1/collections.pdb

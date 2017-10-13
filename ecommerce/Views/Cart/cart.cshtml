@@ -1,0 +1,7 @@
+<h1>Your current order includes:</h1>
+@{foreach(var order in @ViewBag.currentCustomer.Orders){
+    foreach(var cart in order.Carts){
+            <p>@cart.Product.Name ... $@cart.Product.Price</p>
+    }
+}}
+<h3>Total: $@ViewBag.total</h3>

@@ -1,0 +1,13 @@
+<div id="header">
+    <a href='/'class="headerLink">Dashboard</a>
+    <a href='/products' class="headerLink">Products</a>
+    <a href='/orders' class="headerLink">Orders</a>
+    <a href='/customers' class="headerLink">Customers</a>
+    @{if (@ViewBag.loggedIn == false){
+        <a href='/login' class="headerLink">Login/Register</a>
+    }}
+    @{if (@ViewBag.loggedIn == true){
+        <a href='/cart' class="headerLink">Shopping Cart</a>
+        <a href='/logout' class="headerLink">Logout</a>
+    }}
+</div>

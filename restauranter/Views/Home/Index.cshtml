@@ -1,0 +1,35 @@
+@model restauranter.Models.Review
+
+@{
+    ViewData["Title"] = "Restaurant Reviews";
+}
+<h1>Write a new Review:</h1>
+
+<form asp-controller="Review" asp-action="NewReview" method="POST">
+    <span asp-validation-for="ReviewerName"></span><br>
+    <label asp-for="ReviewerName"></label>
+    <input asp-for="ReviewerName"><br><br>
+    <span asp-validation-for="RestaurantName"></span><br>
+    <label asp-for="RestaurantName"></label>
+    <input asp-for="RestaurantName"><br><br>
+    <span asp-validation-for="Content"></span><br>
+    <label asp-for="Content"></label>
+    <textarea asp-for="Content" rows=10 cols=50></textarea><br><br>
+    <span asp-validation-for="DateOfVisit"></span><br>
+    <label asp-for="DateOfVisit"></label>
+    <input type='date' name="DateOfVisit" max=@DateTime.Now><br><br>
+    <span asp-validation-for="Stars"></span><br>
+    <label asp-for="Stars"></label>
+    <select name="Stars">
+        <option value="5">5</option>
+        <option value="4">4</option>
+        <option value="3">3</option>
+        <option value="2">2</option>
+        <option value="1">1</option>
+    </select><br><br>
+    <input type='submit' value="Submit Review">
+</form>
+
+<form action='/skip' method='POST'>
+    <input type='submit' value='Skip to Reviews'>
+</form>

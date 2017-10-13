@@ -1,0 +1,39 @@
+<h1>Restaurant Reviews</h1>
+<a href="/">Write a New Review</a>
+@{foreach (var review in @ViewBag.allReviews){
+    <div style="border: 1px solid black; margin-top: 10px">
+        <h3>@review.RestaurantName</h3>
+        <p>Reviewed by: @review.ReviewerName</p>
+        <p>Visited on: @review.DateOfVisit.ToString("MM/dd/yyyy")</p>
+        <p>@review.Content</p>
+        <p>Stars: @review.Stars</p>
+        <form action='/helpful' method="POST">
+            <input type='hidden' name="id" value='@review.id'>
+            <input type='submit' value='Helpful!'>
+        </form>
+        <form action='/unhelpful' method="POST">
+            <input type='hidden' name = 'id' value='@review.id'>
+            <input type='submit' value='This Review was NOT helpful!'>
+        </form>
+        @{
+            if(@review.HelpfulCount >0){
+                if (@review.HelpfulCount == 1){
+                    <p>@review.HelpfulCount person thought this review was helpful.</p>
+                }
+                else{
+                    <p>@review.HelpfulCount people thought this review was helpful.</p>
+                }
+            }
+        }
+        @{
+            if(@review.UnhelpfulCount >0){
+                if (@review.UnhelpfulCount == 1){
+                    <p>@review.UnhelpfulCount person thought this review was not helpful.</p>
+                }
+                else{
+                    <p>@review.UnhelpfulCount people thought this review was not helpful.</p>
+                }
+            }
+        }
+    </div>
+}}

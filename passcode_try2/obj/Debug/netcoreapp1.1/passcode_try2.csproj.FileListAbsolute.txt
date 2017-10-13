@@ -1,0 +1,8 @@
+/Users/Monica/Desktop/DojoAssignments/C#/passcode_try2/bin/Debug/netcoreapp1.1/passcode_try2.deps.json
+/Users/Monica/Desktop/DojoAssignments/C#/passcode_try2/bin/Debug/netcoreapp1.1/passcode_try2.runtimeconfig.json
+/Users/Monica/Desktop/DojoAssignments/C#/passcode_try2/bin/Debug/netcoreapp1.1/passcode_try2.runtimeconfig.dev.json
+/Users/Monica/Desktop/DojoAssignments/C#/passcode_try2/bin/Debug/netcoreapp1.1/passcode_try2.dll
+/Users/Monica/Desktop/DojoAssignments/C#/passcode_try2/bin/Debug/netcoreapp1.1/passcode_try2.pdb
+/Users/Monica/Desktop/DojoAssignments/C#/passcode_try2/obj/Debug/netcoreapp1.1/passcode_try2.AssemblyInfo.cs
+/Users/Monica/Desktop/DojoAssignments/C#/passcode_try2/obj/Debug/netcoreapp1.1/passcode_try2.dll
+/Users/Monica/Desktop/DojoAssignments/C#/passcode_try2/obj/Debug/netcoreapp1.1/passcode_try2.pdb

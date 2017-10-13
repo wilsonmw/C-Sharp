@@ -1,0 +1,19 @@
+<h1>@ViewBag.currentProduct.Name</h1>
+<h3>$@ViewBag.currentProduct.Price</h3>
+@{foreach (var image in ViewBag.currentProduct.Images){
+    <img src="/images/@image.ImageURL" class="singleProdImage">
+}}
+<div id="prodDescrip">
+    <h3>@ViewBag.currentProduct.Description</h3>
+</div>
+
+<div id="reviewForm">
+    <form action="/review" method="POST">
+        <textarea name="Content" rows=3 cols=45 placeholder="Write a review for @ViewBag.currentProduct.Name"></textarea>
+        <input type="submit" value="Submit Review">
+    </form>
+</div>
+<div id="buy">
+    <a href='/buyNow/@ViewBag.currentProduct.ProductID'>Buy Now!</a>
+</div>
+<a href="/products">Back to All Animals</a>

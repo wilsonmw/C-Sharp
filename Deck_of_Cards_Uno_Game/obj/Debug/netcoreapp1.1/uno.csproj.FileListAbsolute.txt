@@ -1,0 +1,16 @@
+C:/Users/centertr01/dojo/c/uno/bin/Debug/netcoreapp1.1/uno.deps.json
+C:/Users/centertr01/dojo/c/uno/bin/Debug/netcoreapp1.1/uno.runtimeconfig.json
+C:/Users/centertr01/dojo/c/uno/bin/Debug/netcoreapp1.1/uno.runtimeconfig.dev.json
+C:/Users/centertr01/dojo/c/uno/bin/Debug/netcoreapp1.1/uno.dll
+C:/Users/centertr01/dojo/c/uno/bin/Debug/netcoreapp1.1/uno.pdb
+C:/Users/centertr01/dojo/c/uno/obj/Debug/netcoreapp1.1/uno.AssemblyInfo.cs
+C:/Users/centertr01/dojo/c/uno/obj/Debug/netcoreapp1.1/uno.dll
+C:/Users/centertr01/dojo/c/uno/obj/Debug/netcoreapp1.1/uno.pdb
+/Users/Monica/Desktop/DojoAssignments/C#/CD_netCore_hackathon_Uno_Console_Game-master/bin/Debug/netcoreapp1.1/uno.deps.json
+/Users/Monica/Desktop/DojoAssignments/C#/CD_netCore_hackathon_Uno_Console_Game-master/bin/Debug/netcoreapp1.1/uno.runtimeconfig.json
+/Users/Monica/Desktop/DojoAssignments/C#/CD_netCore_hackathon_Uno_Console_Game-master/bin/Debug/netcoreapp1.1/uno.runtimeconfig.dev.json
+/Users/Monica/Desktop/DojoAssignments/C#/CD_netCore_hackathon_Uno_Console_Game-master/bin/Debug/netcoreapp1.1/uno.dll
+/Users/Monica/Desktop/DojoAssignments/C#/CD_netCore_hackathon_Uno_Console_Game-master/bin/Debug/netcoreapp1.1/uno.pdb
+/Users/Monica/Desktop/DojoAssignments/C#/CD_netCore_hackathon_Uno_Console_Game-master/obj/Debug/netcoreapp1.1/uno.AssemblyInfo.cs
+/Users/Monica/Desktop/DojoAssignments/C#/CD_netCore_hackathon_Uno_Console_Game-master/obj/Debug/netcoreapp1.1/uno.dll
+/Users/Monica/Desktop/DojoAssignments/C#/CD_netCore_hackathon_Uno_Console_Game-master/obj/Debug/netcoreapp1.1/uno.pdb

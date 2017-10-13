@@ -1,0 +1,38 @@
+@model wall.Models.ValidateUser
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Login to The Wall (Or Register Below)</h1>
+
+<h2>@ViewBag.loginError</h2><br>
+<form action="/login" method="POST">
+    Email: <input type='text' name="Email">
+    Password: <input type='text' name='Password'>
+    <input type="submit" value = "Login!">
+</form>
+
+<form asp-controller="User" asp-action="" method="POST">
+    <span asp-validation-for="FirstName"></span><br>
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName"><br>
+    <br>
+    <span asp-validation-for="LastName"></span><br>
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName"><br>
+    <br>
+    <span asp-validation-for="Email"></span><br>
+    <label asp-for="Email"></label>
+    <input asp-for="Email"><br>
+    <br>
+    <span asp-validation-for="Password"></span><br>
+    <label asp-for="Password"></label>
+    <input asp-for="Password"><br>
+    <br>
+    <span asp-validation-for="PwConfirm"></span><br>
+    <label asp-for="PwConfirm"></label>
+    <input asp-for="PwConfirm"><br>
+    <br>
+    <input type='submit' value="Register New User">
+
+</form>
